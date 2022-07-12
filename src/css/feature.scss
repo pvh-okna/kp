@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;700;900&display=swap');
+.feature{
+	display: inline-flex;
+	color: black;
+	width: 100%;
+	max-width: 1170px;
+	flex-wrap: wrap;
+	font-family: 'Raleway';
+	font-style: normal;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+.feature_item{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	margin: 2% 4% 0;
+}
+.feature_img{
+	margin-bottom: 12%;
+}
+.feature_title{
+	margin-bottom: 12%;
+	font-weight: 900;
+}
+p{
+	color: rgba(108, 114, 121, 1);
+	font-weight: 400;
+}
+@media (max-width: 500px) {
+	.feature{
+		flex-wrap: nowrap;
+		flex-direction: column;
+		margin-top: 20%;
+		padding-top: 21px;
+	}
+	.feature_item{
+		width: 100%;
+		padding: 5% 5%;
+	}
+	.feature_title{
+		margin-bottom: 3%;
+	}
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;700;900&display=swap');
+.team{
+	display: flex;
+	font-family: 'Raleway';
+	padding: 18px;
+	margin-bottom: 50px;
+}
+.team_item{
+	width: 25%;
+	padding: 10px;
+}
+.team_img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.team_photo{
+	margin-bottom: 10px;
+}
+.team_content{
+	color: black;
+}
+.team_title{
+	font-weight: 700;
+	font-style: 24px;
+	line-height: 25px;
+	}
+.team_subtitle{
+	font-weight: 400;
+	font-style: 24px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	color:rgba(255, 67, 67, 1);
+}
+.team_text{
+	color: rgba(108, 114, 121, 1);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+.team.social{
+	padding-top: 25px;
+}
+@media (max-width: 850px){
+	.team{
+		padding: 3px;
+	}
+	.team_subtitle{
+		font-size: 13px;
+	}
+	.team_title{
+		font-size: 18px;
+	}
+	.team_text{
+		font-size: 14px;
+	}
+}
+@media (max-width: 500px) {
+	.team{
+		width: 100%;
+		max-width: 480px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.team_item{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
