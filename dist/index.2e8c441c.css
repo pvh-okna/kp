@@ -53,6 +53,11 @@ h1 {
   font-weight: 700;
 }
 
+.banner_button:hover {
+  background-color: #e71414;
+  border: 1px solid #e71414;
+}
+
 @media (max-width: 850px) {
   .banner {
     padding: 135px 10px 0;
@@ -820,6 +825,11 @@ p {
   border: 1px solid #ff4343;
   margin-bottom: 7%;
   font-weight: 900;
+}
+
+.download_button:hover {
+  background-color: #e71414;
+  border: 1px solid #e71414;
 }
 
 @media (max-width: 850px) {

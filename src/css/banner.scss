@@ -49,6 +49,10 @@ h1{
 	font-weight: 700;
 	margin:3% 0 0 37%;
 }
+.banner_button:hover{
+	background-color: rgba(231, 20, 20, 1);
+	border: 1px solid rgba(231, 20, 20, 1);
+}
 @media (max-width: 850px){
 	.banner{
 		padding: 135px 10px 0;
